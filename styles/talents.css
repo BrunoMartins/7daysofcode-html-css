@@ -1,0 +1,39 @@
+.talents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    text-align: center;
+}
+
+
+.talents__titulo{
+    color: var(--vermelho-botao);
+    font-weight: 600;
+    font-size: 0.87em;
+}
+
+.talents__destaque{
+    color: var(--preto-destaque);
+    font-weight: 600;
+    font-size: 2.25em;
+    margin: 1em 0;
+}
+
+.talents__texto{
+    color: var(--cinza-claro);
+    font-weight: 400;
+    font-size: 1.25em;
+
+}
+
+.talents__imagem{
+    margin-top: 4em;
+    width: 84%;
+}
+
+@media screen and (max-width: 1200px){
+    .talents__imagem{
+        width: 89%;
+    }
+}

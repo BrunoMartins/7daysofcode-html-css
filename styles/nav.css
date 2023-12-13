@@ -1,0 +1,43 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5em;
+    
+    
+}
+
+.nav__titulo{
+    font-size: 1.125em;
+    color: var(--preto-logo);
+}
+
+
+.nav__link{
+    padding: 1em 1.5em;
+    text-decoration: none;
+    color: var(--cinza-claro);
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.nav__botao{
+    color: var(--branco-botao);
+    background-color: var(--vermelho-botao);
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.62em 1.125em;
+    border-radius: 0.5em;
+}
+
+.nav__link:hover{
+    color: var(--vermelho-botao);
+}
+
+.nav__botao:hover{
+    color: var(--vermelho-botao);
+    background-color: var(--branco-botao);
+    border: 2px solid var(--vermelho-botao);
+}
+

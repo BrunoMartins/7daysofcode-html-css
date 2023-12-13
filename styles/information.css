@@ -1,0 +1,44 @@
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding-bottom: 6em;
+}
+
+.information__container{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    width: 19.5%;
+    
+}
+
+.information__titulo{
+    color: var(--vermelho-botao);
+    font-size: 3.75em;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+}
+
+.information__destaque{
+    color: var(--preto-destaque);
+    font-size: 1.125em;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+}
+
+.information__texto{
+    color: var(--cinza-claro);
+    font-size: 1em;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1200px){
+    .information__container{
+        width: 20.5%;
+    }
+}
+
+

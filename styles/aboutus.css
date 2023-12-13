@@ -1,0 +1,39 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 6em 20.25em 9em 20.25em;
+    align-items: center;
+    gap: 1.5em;
+    
+}
+
+.about-us__titulo{
+    color: var(--vermelho-botao);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.about-us__titulo-destaque{
+    color: var(--preto-destaque);
+    font-size: 3em;
+    font-weight: 600;
+    font-family:var(--fonte-principal);
+    
+}
+
+.about-us__texto{
+    font-size: 1.25em;
+    font-family: var(--fonte-principal);
+    color: var(--cinza-claro);
+    font-weight: 400;
+    width: 85%;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 1200px){
+    .about-us{
+        padding: 6em 10em 9em 10em;
+    }  
+}

@@ -1,0 +1,32 @@
+@import url(styles/nav.css);
+@import url(styles/aboutus.css);
+@import url(styles/information.css);
+@import url(styles/talents.css);
+@import url(styles/vacancies.css);
+@import url(styles/employees.css);
+@import url(styles/form.css);
+
+
+
+
+:root{
+
+    --preto-logo: #3A404E;
+    --cinza-claro:#667085;
+    --branco-botao:#FFFFFF;
+    --vermelho-botao:#8E2424;
+    --preto-destaque:#101828;
+    --branco-formulario: #D0D5DD;
+
+
+    --fonte-principal:'Inter', sans-serif;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--branco-botao);
+    font-size: 16px;
+}

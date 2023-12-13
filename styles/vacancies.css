@@ -1,0 +1,58 @@
+.vacancies{
+    padding-top: 4em;
+}
+
+.vacancies__container{
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 4em;
+}
+
+
+.vacancies__texto{
+    margin-bottom: 2em;
+}
+
+.vacancies__post{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.vacancies__oportunidades{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1.5em;
+}
+
+.vacancies_descricao{
+    display: flex;
+    gap: 1.5em;
+}
+
+.vacancies__texto{
+    font-weight: 500;
+    color: var(--preto-destaque);
+    font-size: 1.25em;
+}
+
+.vacancies__oportunidades-texto{
+    color: var(--preto-destaque);
+    font-size: 1.125em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.vacancies_descricao{
+    color: var(--cinza-claro);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.vacancies__oportunidades-texto:hover{
+    color: var(--vermelho-botao);
+
+}
+

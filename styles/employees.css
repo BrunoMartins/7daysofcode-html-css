@@ -1,0 +1,50 @@
+.employees{
+    padding: 4em 7em 6em 7em;
+}
+
+.employees__depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+.employees__descricao{
+    color: var(--vermelho-botao);
+    font-size: 0.87em;
+    font-weight: 600;
+}
+
+.employees__texto{
+    color: var(--preto-destaque);
+    font-size: 2.25em;
+    font-weight: 500;
+    width: 90%;
+}
+
+.employees__perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.employees__nome{
+    margin: 1em 0 0.25em 0;
+    color: var(--preto-destaque);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.employees__cargo{
+    color: var(--cinza-claro);
+    font-size: 0.87em;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1024px){
+    .employees{
+        padding: 4em 2em 6em 2em;
+    }  
+}
