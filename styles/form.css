@@ -73,4 +73,23 @@
         padding: 6em 2em 9.5em 2em ;
 
     }
+   
+}
+
+@media screen and (max-width: 900px){
+
+    .form__titulo{
+        font-size: 1.5em;
+    }
+
+    .form__texto{
+        font-size: 1em;
+    }
+    .form{
+        padding: 3em 2em 3em 2em ;
+        align-items: center;
+
+    }
+        
+
 }

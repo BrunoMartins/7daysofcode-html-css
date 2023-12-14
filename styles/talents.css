@@ -37,3 +37,21 @@
         width: 89%;
     }
 }
+
+@media screen and (max-width: 900px){
+    .talents__destaque{
+        font-size: 1.5em;
+    }
+
+    .talents__texto{
+        font-size: 1em;
+    }
+
+    .talents{
+        padding: 1em 2em 0 2em;
+    }
+
+    .talents__imagem{
+        margin-top: 2em;
+    }
+}

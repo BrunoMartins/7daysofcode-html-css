@@ -56,3 +56,14 @@
 
 }
 
+@media screen and (max-width: 900px){
+
+    .vacancies__texto,.vacancies__oportunidades-texto{
+        font-size: 1em;
+    }
+
+    .vacancies_descricao{
+        font-size: .75em;
+    }
+
+}

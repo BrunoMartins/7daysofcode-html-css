@@ -37,3 +37,17 @@
         padding: 6em 10em 9em 10em;
     }  
 }
+
+@media screen and (max-width: 1200px){
+    .about-us{
+        padding: 6em 2em 9em 2em;
+    } 
+
+    .about-us__titulo-destaque{
+        font-size: 2.25em;
+    }
+
+    .about-us__texto{
+        font-size: 1em;
+    }
+}

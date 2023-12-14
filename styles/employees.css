@@ -48,3 +48,16 @@
         padding: 4em 2em 6em 2em;
     }  
 }
+
+@media screen and (max-width: 900px){
+
+    .employees__texto{
+        font-size: 1.5em;
+        
+    }
+    .employees{
+        padding: 3em 2em 3em 2em;
+    }  
+        
+    
+}
