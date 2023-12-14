@@ -66,4 +66,8 @@
         font-size: .75em;
     }
 
+    .vacancies__container{
+        max-width: 70%;
+    }
+
 }

@@ -65,6 +65,7 @@
 .lista-menu__titulo,.lista-menu__item{
     padding: 1em;
     background-color: var(--vermelho-botao);
+    border: 0.05px solid var(--branco-botao);
 }
 
 .lista-menu__item a{
