@@ -54,7 +54,7 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top: 75%;
+    top: 70%;
     
 }
 
@@ -72,12 +72,10 @@
     text-decoration: none;
 }
 
-.container__botao{
+.container__botao,
+.cabeçalho__menu-hamburguer,
+.opçoes__rotulo {
     display: none;
-}
-
-.cabeçalho__menu-hamburguer{
-   display: none;
 }
 
 
@@ -89,7 +87,7 @@
         justify-content: space-between;
     }
 
-    .cabeçalho__menu-hamburguer,.ista-menu{
+    .cabeçalho__menu-hamburguer,.opçoes__rotulo{
         display: block;
     }
 
